@@ -1,5 +1,9 @@
 # Kpop-Analysis
 
+## Intro 
+- As someone who was born and raised in South Korea, I grew up listening to K-pop. Over the years, K-pop became a global phenomenon and it still blows my mind how popular it became.
+- So, I thought it would be cool to analyze K-pop using machine learning to explore interesting insights. Thank you Chanin (aka. Data Professor) for the idea!
+
 ## Data Collection
 - I had to do a little bit of googling to find the dataset. After some searching, I came across this website with an excel file. It’s a survey conducted for a study on social media and K-pop which I found very interesting. I liked the questions they asked and I also liked that the survey was conducted recently.
 - The dataset contains 240 K-pop fans from all over the world and there were 22 survey questions.
