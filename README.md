@@ -13,6 +13,7 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
 - Data cleaning is an important step as you want the cleanest data for EDA and model building. If you put garbage in, then you get garbage out from the model.
 - Datasets might have leading and trailing white spaces. So, I decided to remove those white spaces using this function. Then I removed the first column “Timestamp” as it’s not useful.
 - Since the column names are the questions and they are too long, I decided to give them code names to simply the columns.
+  ![](/images/1.png)
 - There are three columns with null values. First, let’s check the columns with only one null value.
 - I found out that the null values in life_chg and money_src were “n/a”, so I simply replaced them with a string “none”.
 - For the “daily_MV_hr” column, I decided to replace the null values with the average. There are multiple ways of handling null values (deleting the row, assigning a unique category, or you can run a regression model to predict the missing values, etc), but I thought replacing them with the average value would be the best choice.
