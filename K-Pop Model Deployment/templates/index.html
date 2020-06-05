@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<style>
+form {
+    margin: auto;
+    width: 35%;
+}
+
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ccc;
+}
+</style>
+
+<head>
+    <title>Predicting Daily K-Pop Listening Hours</title>
+</head>
+<form action="{{ url_for('main') }}" method="POST">
+    <fieldset>
+        <legend>Input values:</legend>
+        Number of years you listened to K-Pop:
+        <input name="yr_listened" type="number" step=".01" required>
+        <br>
+        <br> Number of hours you watch K-Pop MV per day:
+        <input name="daily_MV_hr" type="number" step=".01" required>
+        <br>
+        <br> How much money you spend on K-Pop merchandise a year:
+        <input name="yr_merch_spent" type="number" step=".01" required>
+        <br>
+        <br> Your age:
+        <input name="age" type="number" step=".01" required>
+        <br>
+        <br> Number of groups you like:
+        <input name="num_gr_like" type="number" step=".01" required>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict!</button>
+    </fieldset>
+</form>
+<br>
+<div class="result" align="center">
+    {% if result %}
+    	{% for variable, value in original_input.items() %}
+    		<b>{{ variable }}</b> : {{ value }}
+    	{% endfor %}
+		<br>
+    	<br> Predicted number of hours:
+   		<p style="font-size:50px" step=".01">{{ result }}</p>
+    {% endif %}
+</div>
+
+</html>
