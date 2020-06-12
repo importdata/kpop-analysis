@@ -24,3 +24,28 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
 - I took the mean of 1 and 4 which is 2.5 hrs and removed the word “hours”. I noticed that some of the categories were in ranges, so I took the average of those ranges for the sake of simplicity. I created a special function to take care of this.
 - I realized that this dataset is kind of messy. So I repeated similar steps to clean each column.
 - I saved the cleaned data frame to a CSV file for the next part of the tutorial.
+
+## Exploratory Data Analysis
+- Checked histogram, boxplots, and correlation matrix of continuous variables
+- We can see these relationships:
+  - Number of years they listened to k-pop is positively correlated with the number of hours they listen to k-pop, money they spend on merchandise, and age.
+  - The number of hours k-pop fans spend on watching k-pop youtube music video is positively correlated with the number of hours they listen to k-pop.
+  - The more time they spend on listening to k-pop, the more money they spend on purchasing k-pop merchandise.
+  - The more k-pop youtube videos they watch and the more k-pop they listen, the more groups they like.
+  - The younger they are, the more time they spend on listening to k-pop and watching k-pop videos.
+  - Age has nothing to do with how much money they spend on purchasing k-pop merchandise per year.
+  ![](/images/)
+- Checked bar plots for categorical variables.
+  ![](/images/)
+- Found relationships among continuous variables and categorical variables.
+  ![](/images/)
+
+## Model Building
+- Built five different regression models - Linear, Lasso, Ridge, Random Forest, and XGBoost. Optimized the Random Forest and the XGBoost model using GridsearchCV to find the optimal parameters.
+- XGBoost is the best model (MAE ~ 1.2 hours)
+
+## Model Deployment
+- Built a web application using FLASK.
+  ![](/images/)
+
+
