@@ -41,10 +41,8 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
   
   ![](/images/kpop pos eff.png)
 
-- Found relationships among continuous variables and categorical variables.
+- Found relationships among continuous variables and categorical variables using pivot tables.
   
-  ![](/images/kpop pivot table.png)
-
 ## Model Building
 - Built five different regression models - Linear, Lasso, Ridge, Random Forest, and XGBoost. Optimized the Random Forest and the XGBoost model using GridsearchCV to find the optimal parameters.
 - XGBoost is the best model (MAE ~ 1.2 hours)
