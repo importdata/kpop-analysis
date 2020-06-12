@@ -35,12 +35,11 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
   - The younger they are, the more time they spend on listening to k-pop and watching k-pop videos.
   - Age has nothing to do with how much money they spend on purchasing k-pop merchandise per year.
   
-  ![](/images/corr plot.png)
   ![](https://github.com/importdata/kpop-analysis/blob/master/images/corr%20plot.png)
 
 - Checked bar plots for categorical variables.
   
-  ![](/images/kpop pos eff.png)
+  ![](https://github.com/importdata/kpop-analysis/blob/master/images/kpop%20pos%20eff.png)
 
 - Found relationships among continuous variables and categorical variables using pivot tables.
   
