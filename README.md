@@ -42,6 +42,8 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
   ![](https://github.com/importdata/kpop-analysis/blob/master/images/kpop%20pos%20eff.png)
 
 - Found relationships among continuous variables and categorical variables using pivot tables.
+
+  ![](https://github.com/importdata/kpop-analysis/blob/master/images/kpop%20pivot%20table.png)
   
 ## Model Building
 - Built five different regression models - Linear, Lasso, Ridge, Random Forest, and XGBoost. Optimized the Random Forest and the XGBoost model using GridsearchCV to find the optimal parameters.
@@ -50,6 +52,6 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
 ## Model Deployment
 - Built a web application using FLASK.
 
-  ![](/images/kpop gui.png)
+  ![](https://github.com/importdata/kpop-analysis/blob/master/images/kpop%20gui.png)
 
 
