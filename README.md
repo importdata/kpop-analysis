@@ -34,11 +34,11 @@ Dataset link: Rraman, Saanjanaa (2020): KPOP DATA.xlsx. figshare. Dataset. https
   - The more k-pop youtube videos they watch and the more k-pop they listen, the more groups they like.
   - The younger they are, the more time they spend on listening to k-pop and watching k-pop videos.
   - Age has nothing to do with how much money they spend on purchasing k-pop merchandise per year.
-  ![](/images/)
+  ![](/images/corr plot.png)
 - Checked bar plots for categorical variables.
-  ![](/images/)
+  ![](/images/kpop pos eff.png)
 - Found relationships among continuous variables and categorical variables.
-  ![](/images/)
+  ![](/images/kpop gui.png)
 
 ## Model Building
 - Built five different regression models - Linear, Lasso, Ridge, Random Forest, and XGBoost. Optimized the Random Forest and the XGBoost model using GridsearchCV to find the optimal parameters.
