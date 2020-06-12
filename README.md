@@ -1,12 +1,5 @@
 # Kpop-Analysis
 
-## Overview
-- Created a web application which returns the predicted number of hours one listens to K-Pop on a daily basis (MAE ~ 1.2 hours).
-- Engineered features from the text of each column.
-- Explored the data to analyze the relationships among the features.
-- Built five different regression models - linear, lasso, ridge, random forest and XGBoost.
-- Optimized the random forest and the XGBoost models using GridSearchCV to find the optimal parameters.
-
 ## Intro 
 - As someone who was born and raised in South Korea, I grew up listening to K-pop. Over the years, K-pop became a global phenomenon and it still blows my mind how popular it became.
 - So, I thought it would be cool to analyze K-pop using machine learning to explore interesting insights. Thank you Chanin (aka. Data Professor) for the idea!
